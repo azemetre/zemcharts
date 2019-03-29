@@ -2,11 +2,9 @@
   "name": "zemcharts",
   "version": "1.0.0",
   "description": "a charting library created with react, typescript, and d3",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "repository": {
     "type": "git",
@@ -27,6 +25,7 @@
     "d3": "^5.9.2",
     "ramda": "^0.26.1",
     "react": "^16.8.5",
+    "react-dom": "^16.8.5",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
@@ -81,7 +80,6 @@
     "prettier": "^1.16.4",
     "react-docgen-typescript-loader": "^3.0.1",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
-    "react-dom": "^16.8.5",
     "react-testing-library": "^6.0.2",
     "storybook-addon-jsx": "^7.1.0",
     "style-loader": "^0.23.1",
